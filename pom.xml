@@ -13,21 +13,6 @@
     <description>A third party package to read the dicom images in spark sql dataframe.</description>
     <url>https://github.com/abzoobabd/spark-dicom</url>
 
-    <developers>
-        <developer>
-            <name>RahulLalwani</name>
-            <email>rahul.lalwani@abzooba.com</email>
-            <organization>abzooba</organization>
-            <organizationUrl>https://github.com/abzoobabd</organizationUrl>
-        </developer>
-        <developer>
-            <name>NiraliGandhi</name>
-            <email>nirali.gandhi@abzooba.com</email>
-            <organization>abzooba</organization>
-            <organizationUrl>https://github.com/abzoobabd</organizationUrl>
-        </developer>
-    </developers>
-
     <scm>
         <connection>scm:git:git://github.com/abzoobabd/spark-dicom.git</connection>
         <developerConnection>scm:git:git@github.com:abzoobabd/spark-dicom.git</developerConnection>
