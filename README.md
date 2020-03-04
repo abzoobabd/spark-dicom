@@ -57,7 +57,7 @@ val row = dcmdf.rdd.take(1).last
 
 //retrieve metadata which is stored as json string in a dataframe.
 //json string can be converted to the json object and can be further processed using appropriate library.
-val jsonString = row(1).asInstance[String]
+val jsonString = row(1).asInstanceOf[String]
 
 //retrieve the pixeldata and convert it into the jpg format or some other format.
 val imgByteArray = row(2).asInstanceOf[Array[Byte]]
