@@ -50,7 +50,7 @@ import javax.imageio.ImageIO
 //read the dicom files from hadoop file system or local filesystem
 //dcmdf is the data frame containing the dicom files data.
 //cdf is the corrupt data frame containing the information about corrupt file.
-val (dcmdf,cdf) = dicomread.readDicom(path,sparksession,numpartitions)
+val (dcmdf,cdf) = dicomread.DicomSchema.readDicom(path,sparksession,numpartitions)
 
 //retrieve a particular row froma a data frame.
 val row = dcmdf.rdd.take(1).last
