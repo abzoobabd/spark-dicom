@@ -43,7 +43,7 @@ It contains two columns named `origin`,`exception`.
 
 //import the package
 
-import dicomread
+import dicomread._
 import java.io.{ByteArrayInputStream,File}
 import javax.imageio.ImageIO
 
